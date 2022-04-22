@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css" >
+<title>Area Cerchio</title>
+</head>
+<body>
+	<div class="menu">
+		<div class='nav_bar-box_cerc'>
+			<ul class ='aree_menu'>
+				<li> <a class="home_link_tria" href="area_triangolo.html">Area Triangolo</a> </li>
+				<li> <a class="home_link_rett" href="area_rettangolo.html">Area Rettangolo</a> </li>
+				<li> <a class="home_link_qua" href="area_quadrato.html">Area Quadrato</a> </li>
+			</ul>
+		</div>
+	</div>
+	
+	
+	<div class="insert_data">
+		<form action="http://localhost:8080/area_cerchio/ServletAreaCerchio" method="get" class="form-row">
+			<label id="lbl_raggio">Inserisci il raggio :</label>
+			<input type="text" class='id_area' name="area"/>
+			<div class='form-row'>
+				<button type="submit">Calcola</button>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
